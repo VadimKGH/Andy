@@ -1,0 +1,9 @@
+.main .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 80px;
+    margin-right: 56px;
+    margin-bottom: 160px;
+}

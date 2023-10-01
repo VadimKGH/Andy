@@ -1,0 +1,9 @@
+.image {
+    width: 718px;
+    height: 432px;
+    display: flex;
+    flex-shrink: 0;
+    margin: 75px 0 0 50px;
+    overflow: hidden;
+    /*border: solid 1px red;*/
+}

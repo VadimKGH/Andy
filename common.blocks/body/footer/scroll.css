@@ -1,0 +1,8 @@
+.scroll {
+    margin-bottom: 140px;
+    max-width: 1440px;
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

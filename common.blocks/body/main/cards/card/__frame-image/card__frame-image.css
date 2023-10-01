@@ -1,0 +1,10 @@
+.card__frame-image {
+    width: 665px;
+    height: 433px;
+    display: flex;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 32px;
+    background: #E1E7FF;
+    /*border: solid 1px red;*/
+}

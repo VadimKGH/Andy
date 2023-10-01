@@ -1,0 +1,10 @@
+.frame-text {
+    margin-top: 36px;
+    /*max-width: 424px;*/
+    max-height: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    /*border: solid 1px darkgreen;*/
+}

@@ -1,0 +1,15 @@
+.foto-txt__content {
+    color: #202020;
+    width: 444px;
+    height: 88px;
+    /*leading-trim: both;*/
+    /*text-edge: cap;*/
+
+    /* Headline/Headline 4 */
+    font-family: DM Sans, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 33.6px */
+    letter-spacing: -0.56px;
+}

@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.link {
+    color: #808080;
+    font-family: "DM Sans", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70%;
+    letter-spacing: -1.4px;
+    text-decoration: none;
+}
+
+#top {
+    height: 60px;
+}
