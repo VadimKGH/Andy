@@ -2,17 +2,262 @@ html {
     scroll-behavior: smooth;
 }
 
-.link {
+.body {
+    background: #F4F4F4;
+}
+
+/*============================================ HEADER*/
+.header {
+    max-width: 1328px;
+    margin-inline: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin-top: 28px;
+    width: 178px;
+    height: 30px;
+    display: flex;
+}
+
+.header__links {
+    margin-top: 28px;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: -0.36px;
+    cursor: pointer;
+}
+
+.header__links :hover {
+    font-weight: bolder;
+    transition: 1s; /* Время перехода */
+}
+
+.header__links_color-red {
+    color: #E74928;
+    text-decoration: none;
+}
+
+.header__links_color-grey {
     color: #808080;
+    text-decoration: none;
+}
+
+/*============================================ MAIN*/
+.main {
+    max-width: 1328px;
+    margin-inline: auto;
+    margin-top: 94px;
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 97px;
+}
+
+.main-aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.biografy {
+    padding: 26px 100px 75px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 108px;
+    border-radius: 32px;
+    background: #ECECEC;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 33.6px */
+    letter-spacing: -0.56px;
+    color: #202020;
+}
+
+.biografy-foto {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    gap: 24px;
+}
+
+.biografy-text {
+    max-width: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.biografy-text__description {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: -0.36px;
+    color: #808080;
+}
+
+.biografy__experience {
+    max-width: 444px;
+    /*color: #202020;*/
+    /*font-family: 'DM Sans', sans-serif;*/
+    /*font-size: 28px;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    /*line-height: 120%; !* 33.6px *!*/
+    /*letter-spacing: -0.56px;*/
+}
+
+.social {
+    min-height: 45px;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.button {
+    height: 29px;
+    width: 120px;
+    border-radius: 100px;
+    border: none;
+    background: #ECECEC;;
+
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 28.6px */
+    letter-spacing: -0.44px;
+    color: #202020;
+}
+
+.cards {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.card {
+    height: 580px;
+    max-width: 665px;
+}
+
+.card__image {
+    max-width: 718px;
+    max-height: 432px;
+    display: flex;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 32px;
+    background: #E1E7FF;
+}
+
+.card__image_crop {
+    display: flex;
+    padding: 71px 0 0 112px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card__image_twin {
+    width: 664px;
+    height: 399px;
+    padding-top: 33px;
+    flex-shrink: 0;
+    background: url(../images/AndyWarholLongread.png), lightgray -67.253px 0 / 120.558% 139.85% no-repeat;
+}
+
+.card-text {
+    margin-top: 36px;
+    max-height: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card__title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88%; /* 36.96px */
+    letter-spacing: -0.84px;
+    color: #202020;
+}
+
+.card__content {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: -0.36px;
+    color: #808080;
+}
+
+/*============================================ FOOTER*/
+.footer {
+    max-width: 1328px;
+    margin-inline: auto;
+    margin-top: 160px;
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scroll-btn {
+    width: 1328px;
+    height: 137px;
+
     font-family: "DM Sans", sans-serif;
     font-size: 70px;
     font-style: normal;
     font-weight: 500;
     line-height: 70%;
     letter-spacing: -1.4px;
-    text-decoration: none;
+    text-align: center;
+    color: #808080;
+
+    background: #ECECEC;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
 }
 
-#top {
-    height: 60px;
+.link {
+    font-family: "DM Sans", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70%;
+    letter-spacing: -1.4px;
+    color: #808080;
+    text-decoration: none;
 }
